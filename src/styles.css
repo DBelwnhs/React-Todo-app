@@ -4,7 +4,7 @@
   }
   
   body {
-    background: red;
+    background: #333;
     color: hsl(200, 100%, 90%);
     max-width: 400px;
     padding: 1rem;
@@ -50,6 +50,7 @@
   }
   
   .new-item-form input {
+    max-width: 90vw;
     outline: none;
     border: 1px solid hsl(200, 100%, 40%);
     background: hsl(200, 100%, 30%);
